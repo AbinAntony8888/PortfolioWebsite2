@@ -1,12 +1,9 @@
-import FrontPage from "@/components/FrontPage";
-import Sample from "@/components/Sample";
-import Image from "next/image";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   return (
     <div>
-      {/* <FrontPage/> */}
-      <Sample/>
+      <Portfolio/>
     </div>
       );
 }
