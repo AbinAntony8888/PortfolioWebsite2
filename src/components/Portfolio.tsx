@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import {
@@ -104,7 +105,7 @@ const Portfolio = () => {
               Stack Overflow
             </a>
             <a
-              href="discord://discordapp.com/users/abinantony8888#8137"
+              href="https://discord.gg/tcA8aTKq"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row justify-center items-center gap-2 text-blue-400 border-2 border-violet-600  px-4  bg-white/5 hover:bg-white/10 transition-colors duration-300 transform hover:scale-105 "
@@ -113,7 +114,7 @@ const Portfolio = () => {
               Discord
             </a>
             <a
-              href="https://myaccount.google.com/?gar=WzEyMF0&hl=en&utm_source=OGB&utm_medium=act"
+              href="mailto:abinantony8888@gmail.com?subject=Hello%20Abin&body=I%20would%20like%20to%20connect%20with%20you."
               className="flex flex-row justify-center items-center gap-2 text-blue-400 border-2 border-violet-600  px-4  bg-white/5 hover:bg-white/10 transition-colors duration-300 transform hover:scale-105 "
             >
               <FaEnvelope color="blue" />
@@ -136,7 +137,7 @@ const Portfolio = () => {
                   Background
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Hi, I'm Abin Antony, a passionate full-stack developer with
+                  Hi, I&apos;m Abin Antony, a passionate full-stack developer with
                   expertise in modern web technologies. I specialize in building
                   dynamic, responsive, and user-friendly applications.
                 </p>
@@ -337,7 +338,7 @@ const Portfolio = () => {
                     </span>
                   </div>
                   <a
-                    href="https://github.com/AbinAntony8888/PortfolioWebsite2"
+                    href="https://github.com/AbinAntony8888/PortfolioWebsite"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded transition-colors duration-300"
